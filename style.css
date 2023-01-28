@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    width: 1440px;
+    background-color: #D96A93;
+    margin: 0;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #788C5A;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+    margin-top: 7.5px;
+    margin-left: 30px;
+    align-items: center;
+    align-content: center;
+    image-rendering: auto;
+}
+
+.main-header {
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 40px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    color: white;
+    background-color: #D96A93;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 28px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+  }
+  
+  li a:hover {
+    background-color: #F29D35;
+    height: 100px;
+  }
+
+  .me {
+    padding-right: 30px;
+    height: 100px;
+  }
+
+  .mission-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1440px;
+    flex-wrap: wrap;
+    background-image: url(/Users/lizzypita/Desktop/theseasonalstitcher/resources/images/embroiderythreads.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 180px;
+    padding-top: 100px;
+  }
+
+#Mission {
+    background-color: #B8D9D3;
+    width: 1440px;
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.4;
+} 
+
+.sub-header {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.text {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.shop-box {
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#Shop {
+    background-color: #D96A93;
+    width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 80px;
+  
+}
+
+.shop-header {
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 25px;
+  text-align: center;
+    margin: auto;
+    width: 1440px;
+    justify-content: center;
+    margin: 0;
+    align-content: center;
+}
+
+.sub-header-item {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.text-item {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #788C5A;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 500px;
+  }
+  
+  .price {
+    color: white;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #F29D35;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .store-button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #F29D35;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  .quilt {
+    width: 100%;
+    height: 200px;
+  }
+
+  .cross-stitch {
+    width: 100%;
+    height: 200px;
+  }
+
+  .jacket {
+    width: 100%;
+    height: 200px;
+  }
+
+  .table-runner {
+    width: 100%;
+    height: 200px;
+  }
+
+  .me-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 1440px;
+    flex-wrap: wrap; 
+    flex-direction: row;
+  }
+
+    #Me {
+    display: flex;
+    background-color: #B8D9D3;
+    width: 800px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.4;
+    flex-wrap: wrap;
+    
+    }
+
+    .me-image {
+      justify-content: center;
+      align-content: center;
+      width: 200px;
+      height: 200px;
+      align-items: center;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-top: 200px;
+      margin-bottom: 50px;
+    }
+
+    .footer {
+      display: inline-flex;
+      align-content: center;
+      justify-content: space-between;
+      background-color: #788C5A;
+      color: white;
+      width: 1440px;
+    }
+
+    .footer-left {
+      padding-left: 30px;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 16px;
+    }
+
+    .footer-right {
+      padding-right: 30px;
+      font-family: 'Urbanist', sans-serif;
+      font-size: 16px;
+    }
