@@ -69,7 +69,7 @@ body {
     align-content: center;
     width: 1440px;
     flex-wrap: wrap;
-    background-image: url(/Users/lizzypita/Desktop/theseasonalstitcher/resources/images/embroiderythreads.jpg);
+    background-image: url("./resources/images/embroiderythreads.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 180px;
