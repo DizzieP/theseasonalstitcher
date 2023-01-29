@@ -242,7 +242,7 @@ body {
     
     }
 
-    .me-image {
+    .Sewing-Stuff {
       justify-content: center;
       align-content: center;
       width: 200px;
@@ -252,6 +252,18 @@ body {
       padding-left: 30px;
       margin-top: 200px;
       margin-bottom: 50px;
+    }
+
+    .Knitting {
+      justify-content: center;
+      align-content: center;
+      width: 200px;
+      height: 200px;
+      align-items: center;
+      padding-right: 30px;
+      padding-left: 30px;
+      margin-top: 200px;
+      margin-bottom: 50px; 
     }
 
     .footer {
